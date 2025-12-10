@@ -1,0 +1,61 @@
+# ----------------------------------------------------------------------
+# 1. Ambientes Virtuais e Gerenciadores de Pacotes
+# ----------------------------------------------------------------------
+
+# Ignora pastas de ambientes virtuais (venv, conda, Poetry)
+venv/
+.venv/
+env/
+art_streamlit_venv/  # Específico para o seu projeto
+
+# Arquivos de lock e cache do Poetry ou pip
+poetry.lock
+pip-wheel-cache/
+
+# ----------------------------------------------------------------------
+# 2. Arquivos de Cache, Build e Configuração do Python
+# ----------------------------------------------------------------------
+
+# Cache de bytecode (compilação)
+__pycache__/
+*.pyc
+
+# Arquivos de log e depuração
+*.log
+*.err
+*.out
+
+# Metadados do editor (se usar PyCharm, VS Code, etc.)
+.idea/
+.vscode/
+
+# Build e distribuição (se criar pacotes)
+dist/
+build/
+*.egg-info/
+.mypy_cache/
+
+# ----------------------------------------------------------------------
+# 3. Streamlit e Dashboards
+# ----------------------------------------------------------------------
+
+# Configurações locais e cache de sessão do Streamlit
+.streamlit/
+
+# ----------------------------------------------------------------------
+# 4. Dados, Credenciais e Notebooks (Essencial para DS)
+# ----------------------------------------------------------------------
+
+# Arquivos de dados confidenciais ou grandes que não devem ir para o Git
+# Mantenha apenas arquivos pequenos de exemplo (como estoque.csv) se for necessário.
+# Se o estoque.csv for grande ou sensível, descomente a linha abaixo:
+# estoque.csv 
+*.csv.gz
+*.parquet
+*.feather
+*.pkl
+*.h5
+
+# Arquivos de credenciais e segredos
+.env
+.DS_Store # (Específico do macOS)
