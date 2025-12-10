@@ -55,7 +55,7 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
 
 ### Pré-requisitos
 
-Certifique-se de ter o Python 3.8+ e o `pip` instalados.
+Certifique-se de ter o Python 3.13+ e o `pip` instalados.
 
 ### 1. Clonar o Repositório
 
