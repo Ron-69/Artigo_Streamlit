@@ -60,5 +60,5 @@ Certifique-se de ter o Python 3.13+ e o `pip` instalados.
 ### 1. Clonar o Repositório
 
 ```bash
-git clone [https://github.com/Ron-69/Artigo_Streamlit.git](https://github.com/Ron-69/Artigo_Streamlit.git)
+git clone https://github.com/Ron-69/Artigo_Streamlit.git
 cd NomeDoRepositorio
